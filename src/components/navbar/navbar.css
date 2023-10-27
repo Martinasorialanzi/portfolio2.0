@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #272D2B;
+    color: #ffffff!important;
+    /* font-family: "Gill Sans"; */
+    /* font-size: 1.3rem; */
+  }
+  
+  .navbar-bg {
+    background-color: #ffffffef;
+  }
+  .tituloNav{
+    color: #ffffff!important;
+  }
+  .linksNav{
+    
+color: white!important;
+ /* font-size: 20px!important; */
+ font-size: 1.3rem;
+
+ font-family: Poppins!important;
+ word-wrap: break-word!important
+  }
+
+.linksNav:hover{
+  color:rgba(64, 134, 111, 0.927)!important
+}
+
+.colorChangeBrand{
+  color: rgba(64, 134, 111, 0.927);
+}
