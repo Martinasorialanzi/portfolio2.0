@@ -1,19 +1,19 @@
 .navbar {
-    background-color: #272D2B;
-    color: #ffffff!important;
+    background-color: #26292c;
+    color: #f5f6f6!important;
     /* font-family: "Gill Sans"; */
     /* font-size: 1.3rem; */
   }
   
   .navbar-bg {
-    background-color: #ffffffef;
+    background-color: #f5f6f6;
   }
   .tituloNav{
-    color: #ffffff!important;
+    color: #f5f6f6!important;
   }
   .linksNav{
     
-color: white!important;
+color: #f5f6f6!important;
  /* font-size: 20px!important; */
  font-size: 1.3rem;
 
@@ -22,9 +22,9 @@ color: white!important;
   }
 
 .linksNav:hover{
-  color:rgba(64, 134, 111, 0.927)!important
+  color:#637077!important
 }
 
 .colorChangeBrand{
-  color: rgba(64, 134, 111, 0.927);
+  color: #f5f6f6;
 }

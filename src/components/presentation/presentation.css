@@ -32,7 +32,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
   }
   
   .womanDevPic {
@@ -44,11 +44,11 @@ body {
   .miNombre {
     font-family: "Gill Sans";
     font-size: 3em;
-    color: rgb(255, 255, 255);
+    color: #f5f6f6;
   }
   .miCarrera {
     /* font-family: "Gill Sans"; */
     font-size: 1.8rem;
-    color: rgb(255, 255, 255);
+    color: #f5f6f6;
   }
   
