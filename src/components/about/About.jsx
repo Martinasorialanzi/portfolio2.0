@@ -5,23 +5,27 @@ import "../about/about.css"
 import { Link } from 'react-router-dom'
 // import pdf from '../../assets/cv/CvMartinaSoriaLanzi.pdf'
 
+
 const About = () => {
   return (
     <>
     <Container id="sobreMi" className='containerSobreMi'>
     <Row className='p-0'>
-        <Col className='colFotCv m-0 p-0' xs={12} sm={12} md={6} xl={6}>
-        {/* <img src={fotCv} className="fotCv"></img> */}
-        </Col>
-        <Col className='colSobreMi '>
+      <Col className='colTittleSkills'>
+      <p className='tittleSkills'>About me</p>
+      </Col>
+ 
+        <Col className='colSobreMi justify-content-center '>
         <p>
-        Hola, soy Martina Soria Lanzi, tengo 25 años. 
+        Hello, I am Martina Soria Lanzi, I am 25 years old. 
         <br/>
-        En marzo del 2021 me recibí de la carrera de Ingenieria Industrial en la universidad del Norte Santo Tomas de Aquino. En Mayo de 2022 empecé el curso de FullStack en RollingCode School con el fin de adentrarme en el mundo de la programación.
+        In March 2021 I graduated from the Industrial Engineering degree at the Universidad del Norte Santo Tomas de Aquino. In May 2022 I started the FullStack course at RollingCode School in order to enter the world of programming.
         <br/>
-        Actualmente sigo aprendiendo y adquiriendo nuevas habilidades mientras realizo distintos proyectos para poner en practica todo lo aprendido y seguir creciendo.
+        Currently I continue to learn and acquire new skills while carrying out different projects to put into practice everything I have learned and continue growing.
+
         <br/><br/>
-        Podes conocer más acerca de mi carrera profesional acá abajo 👇
+        You can learn more about my professional career below 👇
+
 
             <br/>
           {/* <Link to={pdf} className="colSobreMi" target="_blank" rel="noopener noreferrer" download="CvMartinaSoriaLanzi.pdf">Descarga mi CV</Link> */}

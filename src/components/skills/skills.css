@@ -34,19 +34,17 @@
   
       transform: rotate(0deg); 
       padding-top: 3%;
-      font-family: "Gill Sans";
       font-size: 3em;
       color: rgb(255, 255, 255);
   }
   
   .nombreTecnologia{
-    font-family: "Gill Sans";
       font-size: 1em;
       color: rgb(255, 255, 255);
   
   }
   
-  .cardIcon{
+  /* .cardIcon{
     background-color: aqua;
     height:5em;
     width: 5em;
@@ -60,19 +58,19 @@
   
   
   }
-  
-  .imagenIcon{
+   */
+  /* .imagenIcon{
     height: 27%;
     width: 27%;
     margin: 1em;
     margin-bottom:1.5em ;
   }
+   */
   
-  
-  .imagenIcon2{
+  /* .imagenIcon2{
     height: 40%;
     width: 40%;
-    /* margin: 1em; */
+    margin: 1em;
     margin-top: 0em;
   
   
@@ -83,7 +81,7 @@
     margin: 1em;
     margin-top: 1em;
   
-  }
+  } */
   
   .stackIcon{
     display: flex;

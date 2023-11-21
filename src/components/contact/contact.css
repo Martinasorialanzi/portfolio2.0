@@ -1,3 +1,4 @@
+
 .containerForm {
     display: flex;
     justify-content: center;
@@ -14,20 +15,20 @@
   
   .formContacto {
     width:60%;
-    color:rgba(72, 72, 71, 0.941);
+    color:#f5f6f6;
     font-size: 1.2em;
   }
   
   .divTextContacto{
       text-align: center;
       font-size: 1.5em;
-      color: rgb(255, 255, 255);
+      color: #f5f6f6;
   }
   
   .botonEnviar{
-     background-color: rgba(72, 72, 71, 0.941)!important;
-     border-color: rgba(72, 72, 71, 0.941)!important;
-     color: #FFF;
+     background-color:#494f55 !important;
+     border-color:#494f55!important;
+     color: #f5f6f6;
      border: 2px solid rgb(72, 72, 71, 0.941);
      border-radius: 0px;
      padding: 18px 36px;
@@ -40,8 +41,8 @@
      transition: ease-out 0.4s;
   }
   .botonEnviar:hover {
-   box-shadow: inset 400px 50px 0 0 rgba(243, 180, 97, 0.941)!important;
-   border-color: rgba(243, 180, 97, 0.941)!important;
+   box-shadow: inset 400px 50px 0 0 #637077!important;
+   border-color: #637077!important;
    -webkit-transition: ease-out 0.4s;
    -moz-transition: ease-out 0.4s;
    transition: ease-out 0.4s;
@@ -49,7 +50,7 @@
   
   .formControl{
     background-color: transparent !important;
-    border-color:rgba(72, 72, 71, 0.941)!important ;
-    color: rgba(72, 72, 71, 0.941);
+    border-color:#f5f6f6!important ;
+    color:#f5f6f6;
   }
   

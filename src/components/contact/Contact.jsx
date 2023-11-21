@@ -34,8 +34,8 @@ const Contact = () => {
     <Container id="contacto" className="container">
       <div className="divTextContacto">
 
-      ¿QUERES HACERME UNA OFERTA, DARME ALGÚN FEEDBACK O SIMPLEMENTE
-      SALUDAR? PODES HACERLO ACÁ ABAJO 👇
+      
+DO YOU WANT TO MAKE ME AN OFFER, GIVE ME SOME FEEDBACK OR JUST SAY HELLO? YOU CAN DO IT BELOW 👇
       </div>
       <Container className="containerForm container ">
 

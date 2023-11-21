@@ -1,12 +1,10 @@
 .navbar {
     background-color: #26292c;
     color: #f5f6f6!important;
-    /* font-family: "Gill Sans"; */
-    /* font-size: 1.3rem; */
   }
   
   .navbar-bg {
-    background-color: #f5f6f6;
+    background-color: #555f65c7;
   }
   .tituloNav{
     color: #f5f6f6!important;
@@ -14,10 +12,8 @@
   .linksNav{
     
 color: #f5f6f6!important;
- /* font-size: 20px!important; */
  font-size: 1.3rem;
 
- font-family: Poppins!important;
  word-wrap: break-word!important
   }
 
