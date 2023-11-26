@@ -1,21 +1,25 @@
-/* .containerSobreMi{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    background-color: #ffffff;
-    margin-top: 10%;
-    margin-bottom: 10%;
-    border-radius: 3%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-left: 0%;
-    padding-right: 0%;
-    border-color: #ffffff;
-    border-width: 20%;
-    max-width: fit-content;
+.containerSobreMi{
+    position: relative;
+    padding-bottom: 20px; /* Ajusta el relleno según sea necesario */
+    margin-bottom: 20px; /* Ajusta el margen según sea necesario */
+    overflow: hidden; /* Oculta el contenido que se desborda */
     
-} */
+}
+.containerSobreMi::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color:#418b79;
+}
+.containerSobreMi:hover::after{
+  animation: slide 5s linear  ; 
+  animation-iteration-count: 0.25;
+  
+}
+
 .colFotCv{
     display: flex;
     justify-content: center;
