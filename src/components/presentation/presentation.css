@@ -1,75 +1,81 @@
 body {
-    background-color:#26292c
-    !important;
-    min-width: 100%;
-    min-height: 100%;
-  }
-  .imagenCv {
-    border-radius: 50%;
-    height: 21rem;
-    width: 19rem;
-  }
-  .containerPresentacion {
-  
-   margin-top: 10%;
-    position: relative;
-    padding-bottom: 20px; /* Ajusta el relleno según sea necesario */
-    margin-bottom: 20px; /* Ajusta el margen según sea necesario */
-    overflow: hidden; /* Oculta el contenido que se desborda */
-  }
-  .containerPresentacion::after{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 2px; 
-    background-color:#418b79;
+  background-color: #26292c !important;
+  min-width: 100%;
+  min-height: 100%;
+}
+.imagenCv {
+  border-radius: 50%;
+  border-color: #2fe7b9!important;
+  border-width: 10em;
+  height: 21rem;
+  width: 19rem;
+}
+.containerPresentacion {
+  margin-top: 10%;
+  position: relative;
+  padding-bottom: 60px; /* Ajusta el relleno según sea necesario */
+  margin-bottom: 20px; /* Ajusta el margen según sea necesario */
+  overflow: hidden; /* Oculta el contenido que se desborda */
+}
+.containerPresentacion::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #418b79;
 }
 
-.containerPresentacion:hover::after{
-  animation: slide 5s linear  ; 
-  animation-iteration-count: 0.25; 
-} 
 
+.containerPresentacion:hover::after {
+  animation: slide 5s linear;
+  animation-iteration-count: 0.25;
+}
 
+.rowSobreMi {
+  min-width: 100%;
+  
+  
+}
+.colPresentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.colWomanDev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:50%;
+}
 
+.womanDevPic {
+  height: 18rem;
+  width: 18rem;
+}
+.miNombre {
+  font-family: "Gill Sans";
+  font-size: 3em;
+  color: #2fe7b9;
+}
+.miCarrera {
+  font-size: 1.8rem;
+  color: #f5f6f6;
+}
 
-
-
-  /* .containerPresentacion:not(:hover)::after{
+@media screen and (max-width:767px) {
+  .rowSobreMi{
+    display: flex;
+  }
+  .colWomanDev{
     width: 100%;
-  } */
-  .rowSobreMi {
-    min-width: 100%;
+    margin-top: 2em;
+    order: -1;
   }
-  .colPresentacion {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .colWomanDev {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* width: 100%; */
-  }
-  
   .womanDevPic {
-    height: 18rem;
-    width: 18rem;
-  
-    
-  }
-  .miNombre {
-    font-family: "Gill Sans";
-    font-size: 3em;
-    color: #f5f6f6;
-  }
-  .miCarrera {
-    /* font-family: "Gill Sans"; */
-    font-size: 1.8rem;
-    color: #f5f6f6;
-  }
-  
+  height: 20em;
+  width: 18em;
+}
+}

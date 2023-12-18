@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import "../navbar/navbar.css";
+import { Row, Col } from 'react-bootstrap';
 
 
 const Navegador = () => {
@@ -22,24 +23,25 @@ const Navegador = () => {
   return (
     <>
     <Navbar
-      expand="md"
+      // expand="md"
       fixed="top"
-      className={colorNav ? "navbar navbar-bg" : "navbar"}
+      className={ colorNav ? "navbar navbar-bg" : "navbar" }
     >
-      <Container >
+      <Container className='containerNav' >
         <Navbar.Brand href="/" className="tituloNav" >
-          <span className='colorChangeBrand'>&lt;/</span> martina soria lanzi<span className='colorChangeBrand'>&gt;</span>
+          <span className='colorChangeBrand '>&lt;/</span> martina soria lanzi<span className='colorChangeBrand'>&gt;</span>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+       
           <Nav className="me-auto"></Nav>
           <Nav className="">
+         
             <Nav.Link className='linksNav' href="#about">About</Nav.Link>
             <Nav.Link className='linksNav' href="#skills">Skills</Nav.Link>
             <Nav.Link className='linksNav' href="#projects">Projects</Nav.Link>
             <Nav.Link className='linksNav' href="#contact">Contact me</Nav.Link>
+       
           </Nav>
-        </Navbar.Collapse>
+   
       </Container>
     </Navbar>
     </>

@@ -24,3 +24,12 @@ color: #f5f6f6!important;
 .colorChangeBrand{
   color: #f5f6f6;
 }
+
+
+@media screen and (max-width: 767px) {
+  .tituloNav {
+    display: none;
+  }
+
+  
+}
