@@ -10,14 +10,18 @@ const Skills = () => {
   return (
     <>
     <Container id="skills" className="container1 p-2 ">
-      <div className="container2 p-2 pb-3 ">
-        <p className="textTecnologias text-center mb-4 mt-0">SKILLS</p>
+    <Row className='p-0'>
+
+    <Col className='colTittleSkills'>
+        <p className="textTecnologias text-center mb-4 mt-0">Skills</p>
+    </Col>
+    <Col>
         <Row className="justify-content-center" >
           <Col xs={6} md={3} xl={3}>
          
           <div>
             <Stack className="justify-content-center text-center stackIcon">
-            <FaHtml5 style={{color:"white"}} size={80}/>
+            <FaHtml5 style={{color:"white"}} size={70}/>
             <h5 className="nombreTecnologia">HTML</h5>
             </Stack>
  
@@ -30,7 +34,7 @@ const Skills = () => {
          
           <div>
             <Stack className="justify-content-center text-center stackIcon">
-            <FaCss3Alt style={{color:"white"}} size={80}/>
+            <FaCss3Alt style={{color:"white"}} size={70}/>
             <h5 className="nombreTecnologia">CSS</h5>
             </Stack>
  
@@ -43,7 +47,7 @@ const Skills = () => {
          
           <div>
             <Stack className="justify-content-center text-center stackIcon">
-            <FaBootstrap  style={{color:"white"}} size={80}/>
+            <FaBootstrap  style={{color:"white"}} size={70}/>
             <h5 className="nombreTecnologia">BOOTSTRAP</h5>
             </Stack>
  
@@ -56,7 +60,7 @@ const Skills = () => {
          
           <div>
             <Stack className="justify-content-center text-center stackIcon">
-            <IoLogoJavascript style={{color:"white"}} size={80}/>
+            <IoLogoJavascript style={{color:"white"}} size={70}/>
             <h5 className="nombreTecnologia">JAVASCRIPT</h5>
             </Stack>
  
@@ -69,7 +73,7 @@ const Skills = () => {
          
           <div>
             <Stack className="justify-content-center text-center stackIcon">
-            <FaReact style={{color:"white"}} size={80}/>
+            <FaReact style={{color:"white"}} size={70}/>
             <h5 className="nombreTecnologia">REACT</h5>
             </Stack>
  
@@ -82,7 +86,7 @@ const Skills = () => {
          
           <div>
             <Stack className="justify-content-center text-center stackIcon mt-3" >
-            <FaNode style={{color:"white"}} size={80}/>
+            <FaNode style={{color:"white"}} size={70}/>
             {/* <h5 className="nombreTecnologia">NODE JS</h5> */}
             </Stack>
  
@@ -92,7 +96,7 @@ const Skills = () => {
          
          <div>
            <Stack className="justify-content-center text-center stackIcon">
-           <LiaGitAlt style={{color:"white"}} size={80}/>
+           <LiaGitAlt style={{color:"white"}} size={70}/>
            <h5 className="nombreTecnologia">GIT</h5>
            </Stack>
 
@@ -105,7 +109,7 @@ const Skills = () => {
          
           <div>
             <Stack className="justify-content-center text-center stackIcon">
-            <FaGithub style={{color:"white"}} size={80}/>
+            <FaGithub style={{color:"white"}} size={70}/>
             <h5 className="nombreTecnologia">GITHUB</h5>
             </Stack>
  
@@ -118,7 +122,7 @@ const Skills = () => {
          
           <div>
             <Stack className="justify-content-center text-center stackIcon">
-            <SiMongodb style={{color:"white"}} size={80}/>
+            <SiMongodb style={{color:"white"}} size={70}/>
             <h5 className="nombreTecnologia">MONGODB</h5>
             </Stack>
  
@@ -131,7 +135,7 @@ const Skills = () => {
          
           <div>
             <Stack className="justify-content-center text-center stackIcon">
-            <SiMicrosoftsqlserver style={{color:"white"}} size={80}/>
+            <SiMicrosoftsqlserver style={{color:"white"}} size={70}/>
             <h5 className="nombreTecnologia">MS SQL </h5>
             </Stack>
  
@@ -141,7 +145,7 @@ const Skills = () => {
          
           <div>
             <Stack className="justify-content-center text-center stackIcon">
-            <SiPostman style={{color:"white"}} size={80}/>
+            <SiPostman style={{color:"white"}} size={70}/>
             <h5 className="nombreTecnologia">POSTMAN</h5>
             </Stack>
  
@@ -151,7 +155,9 @@ const Skills = () => {
           
       
         </Row>
-      </div>
+        </Col>
+  
+      </Row>
     </Container>
   </>
   )

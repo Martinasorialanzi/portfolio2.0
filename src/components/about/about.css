@@ -28,13 +28,7 @@
     padding: 0%;
 }
 
-.fotCv{
-    height: 75%;
-    width: 50%;
-    
-    margin: 0;
 
-}
 .colTittleSkills {
     display: flex;
     justify-content: center;
@@ -46,7 +40,7 @@
     transform: rotate(0deg); 
     padding-top: 3%;
     font-size: 3em;
-    color: rgb(255, 255, 255);
+    color: #2fe7b9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,36 +62,11 @@
 
 
 
-@media (max-width:500px ){
-    .fotCv{
-        height: 100%;
-        width: 50%;
-        margin: 0;
-    
-    }
-}
 
-@media (max-width:1200px ){
-    .fotCv{
-        height: 60%;
-        width: 50%;
-        margin: 0;
-    }
-}
-
-@media (max-width:990px ){
-    .fotCv{
-        height: 40%;
-        width: 60%;       
-        margin: 0;
-    
-    }
-}
-@media (max-width:768px ){
-    .fotCv{
-        height: 100%;
-        width: 50%;        
-        margin: 0;
-    
+@media screen and (max-width:768px ){
+    .rowSobreMi{
+       display: flex;
+       flex-direction:column;
+       padding: 1em!important;
     }
 }

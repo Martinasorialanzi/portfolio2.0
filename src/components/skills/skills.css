@@ -54,15 +54,20 @@
   
   .textTecnologias{
   
-      transform: rotate(0deg); 
-      padding-top: 3%;
-      font-size: 3em;
-      color: rgb(255, 255, 255);
+    transform: rotate(0deg); 
+    padding-top: 3%;
+    font-size: 3em;
+    color: #2fe7b9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
   
   .nombreTecnologia{
       font-size: 1em;
       color: rgb(255, 255, 255);
+      font-weight: 400;
   
   }
   

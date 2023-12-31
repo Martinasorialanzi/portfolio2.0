@@ -20,7 +20,7 @@ const Presentation = () => {
               <h2 className="miNombre my-4">Martina Soria Lanzi</h2>
               <p className="miCarrera m-0">FullStack Developer</p>
               <p className="miCarrera mt-0">Industrial Engeenier</p>
-              <Col className="mb-4">
+              <Col className="mb-4 mt-4">
                 <Link
                   to="https://www.linkedin.com/in/martina-soria-lanzi-4004371b8/"
                   target="_blank"
