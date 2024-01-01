@@ -16,9 +16,8 @@ const About = () => {
 
           <Col className="colSobreMi justify-content-center ">
             <p>
-              Hello, I'm Martina Soria Lanzi! 👩‍💻
-              <br />
-              <br />
+              <p className="nameRow">Hello, I'm Martina Soria Lanzi! 👩‍💻</p>
+            
               Welcome to my digital realm! I'm a passionate web developer with a
               degree in Industrial Engineering.
               <br />
@@ -33,6 +32,8 @@ const About = () => {
               <br />
               Explore my evolving journey below! 👇
               <br />
+              <br />
+
               <Link
                 to={pdf}
                 className="colSobreMi"

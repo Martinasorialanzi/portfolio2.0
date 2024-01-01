@@ -3,7 +3,7 @@
     padding-bottom: 20px; /* Ajusta el relleno según sea necesario */
     margin-bottom: 20px; /* Ajusta el margen según sea necesario */
     overflow: hidden; /* Oculta el contenido que se desborda */
-    
+    padding-top:0.5em;    
 }
 .containerSobreMi::after{
     content: "";
@@ -18,14 +18,6 @@
   animation: slide 5s linear  ; 
   animation-iteration-count: 0.25;
   
-}
-
-.colFotCv{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0%;
 }
 
 
@@ -54,12 +46,13 @@
     text-align: center;
     margin-right:5%;
     padding: 0;
-    padding-top: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     color: #f5f6f6;
-    /* font-family: "Gill Sans";
-    font-size: 1.3rem; */
 }
-
+.nameRow{
+    font-weight: 700;
+}
 
 
 
@@ -69,4 +62,9 @@
        flex-direction:column;
        padding: 1em!important;
     }
+    .tittleSkills{
+        font-size: 2.8em;
+        padding-top: 0%;
+        padding-bottom: 1%;
+      }
 }
