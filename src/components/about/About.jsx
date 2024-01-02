@@ -15,8 +15,9 @@ const About = () => {
           </Col>
 
           <Col className="colSobreMi justify-content-center ">
-            <p>
+            <div>
               <p className="nameRow">Hello, I'm Martina Soria Lanzi! 👩‍💻</p>
+            <p>
             
               Welcome to my digital realm! I'm a passionate web developer with a
               degree in Industrial Engineering.
@@ -43,6 +44,7 @@ const About = () => {
                 View My Resume
               </Link>
             </p>
+            </div>
           </Col>
         </Row>
       </Container>

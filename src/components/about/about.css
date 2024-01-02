@@ -67,4 +67,16 @@
         padding-top: 0%;
         padding-bottom: 1%;
       }
+      .colSobreMi{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-right:5%;
+        padding: 0;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        color: #f5f6f6;
+        font-size: 1.1em!important;
+    }
 }

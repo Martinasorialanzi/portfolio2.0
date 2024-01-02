@@ -3,7 +3,7 @@
     padding-bottom: 20px; /* Ajusta el relleno según sea necesario */
     margin-bottom: 20px; /* Ajusta el margen según sea necesario */
     overflow: hidden; 
-    padding-top:0.5em;    
+
 }
 .containerProjects::after{
     content: "";
@@ -42,28 +42,41 @@
 .colProjects {
    
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-right:5%;
     padding: 0;
     padding-top: 1%;
     padding-bottom: 1%;
     color: #f5f6f6;
+    
+ 
+}
+
+.card{
+    border-color: #ffffff!important;
+    border-width: 0.01em;
+    background-color: transparent!important;
+    color: #f6fcfa;
+    border-radius: 4px;
+    height: 10em;
+    width: 25em!important;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+  
+    
+}
+.slider{
+    width: 28em!important;
 }
 
 
-
-
-
-
-
-
-@media screen and (max-width:768px ){
+@media screen and (max-width:992px ){
     .colTittleProjects{
        display: flex;
-       flex-direction:column;
+       flex-direction:column!important;
        padding: 1em!important;
     }
     .tittleProjects{
@@ -71,4 +84,42 @@
         padding-top: 0%;
         padding-bottom: 1%;
       }
+      .card{
+        background-color: #ffffff16;
+        color: #f6fcfa;
+        border-radius: 4px;
+        height: 10em;
+        width: 15em!important;
+        /* padding: 10px; */
+        margin: 10px;
+        text-align: center;
+    }
+    .slider{
+        width: 17em!important;
+        margin-left: 0!important;
+        margin-right: 0!important;
+    padding: 0!important;
+
+    }
+}
+
+@media screen and (min-width:1200px ){
+   
+      .card{
+        background-color: #303741;
+        color: #f6fcfa;
+        border-radius: 4px;
+        height: 10em;
+        width: 20em!important;
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+    .slider{
+        width: 25em!important;
+        margin-left: 0!important;
+        margin-right: 0!important;
+    padding: 0!important;
+
+    }
 }

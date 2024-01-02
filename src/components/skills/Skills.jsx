@@ -87,7 +87,6 @@ const Skills = () => {
           <div>
             <Stack className="justify-content-center text-center stackIcon mt-3" >
             <FaNode style={{color:"white"}} size={70}/>
-            {/* <h5 className="nombreTecnologia">NODE JS</h5> */}
             </Stack>
  
           </div>
