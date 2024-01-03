@@ -1,39 +1,51 @@
 {
     "projects":[
 {
+    "_id":"5",
     "title": "FarmaTurno",
-    "description":"",
+    "description":"Pharmacy management system",
+    "technologies":["REACT","CSS","BOOTSTRAP","NODE JS","EXPRESS JS","MONGODB","REDUX TOOLKIT"],
     "weblink":"https://c11-02-m-mern-farmaturno.vercel.app/",
     "github":"https://github.com/No-Country/c11-02-m-mern-farmaturno",
-    "image":""
+    "image":"https://i.ibb.co/brtSzLg/farmaturno.png"
 },
 {
+    "_id":"4",
     "title": "Portfolio 1.0",
-    "description":"",
+    "description":"Personal Portfolio",
+    "technologies":["REACT","CSS","BOOTSTRAP","NODE JS","EXPRESS JS","MONGODB","REDUX TOOLKIT"],
     "weblink":"https://martinasorialanzi.vercel.app/",
     "github":"https://github.com/Martinasorialanzi/portfolio",
-    "image":""
+    "image":"https://i.ibb.co/yXxL6yQ/portfolio1.png"
 },
 {
+    "_id":"3",
     "title": "Gym Website",
-    "description":"",
+    "description":"Gym management system",
+    "technologies":["REACT","CSS","BOOTSTRAP","NODE JS","EXPRESS JS","MONGODB","REDUX TOOLKIT"],
     "weblink":"https://gimnasio.vercel.app/",
     "github":"https://github.com/Martinasorialanzi/gimnasio",
-    "image":""
+    "image":"https://i.ibb.co/WH1L7Dk/gym.png"
+
 },
 {
+    "_id":"2",
     "title": "Movies 5i",
-    "description":"",
+    "description":" Movies web app where users can browse and watch movies online.",
+    "technologies":["JAVASCRIPT","CSS","BOOTSTRAP"],
     "weblink":"https://movies-5i.netlify.app",
     "github":"https://lucaslon22.github.io/Movies-5i/",
-    "image":""
+    "image":"https://i.ibb.co/VVj6V77/movies5i.png"
 },
 {
+    "_id":"1",
     "title": "Rolling Bank",
-    "description":"",
+    "description":"Financial education blog",
+    "technologies":["HTML","CSS","BOOTSTRAP"],
     "weblink":"https://rollingbank-tuc.netlify.app/",
     "github":"https://github.com/Martinasorialanzi/rollingbank",
-    "image":""
+    "image":"https://i.ibb.co/YBjGdSP/rollingbank.png"
 }
 ]
 }
+

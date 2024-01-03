@@ -60,16 +60,45 @@
     background-color: transparent!important;
     color: #f6fcfa;
     border-radius: 4px;
-    height: 10em;
-    width: 25em!important;
-    padding: 10px;
+    /* height: 26em; */
+    width: 14em!important;
+    padding: 0;
     margin: 10px;
     text-align: center;
-  
+}
+.image{
+    height: 8rem;
     
 }
+
+.badgeTech{
+    background-color: #418b79!important;
+    /* background-color: transparent!important; */
+    font-size: 0.55em;
+    margin-top: 1em;
+    margin-right: 0.2em;
+    margin-left: 0.2em;
+    color: #f5f6f6;
+}
+.divBadge{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    height: 2.5em;
+    justify-content: center;
+    align-content: center;
+}
+.description{
+    font-size: 0.75em;
+}
+.divDescription{
+    height: 2.3em;
+}
+.cardLink{
+    font-size: 0.7em;
+    color:#2fe7b9;
+}
 .slider{
-    width: 28em!important;
+    width: 32em!important;
 }
 
 
@@ -84,42 +113,38 @@
         padding-top: 0%;
         padding-bottom: 1%;
       }
-      .card{
-        background-color: #ffffff16;
-        color: #f6fcfa;
-        border-radius: 4px;
-        height: 10em;
-        width: 15em!important;
-        /* padding: 10px; */
-        margin: 10px;
-        text-align: center;
+      .slider{
+        width: 40em!important;
     }
-    .slider{
-        width: 17em!important;
-        margin-left: 0!important;
-        margin-right: 0!important;
-    padding: 0!important;
 
     }
-}
+ 
 
-@media screen and (min-width:1200px ){
-   
-      .card{
-        background-color: #303741;
-        color: #f6fcfa;
-        border-radius: 4px;
-        height: 10em;
-        width: 20em!important;
-        padding: 10px;
-        margin: 10px;
-        text-align: center;
-    }
-    .slider{
-        width: 25em!important;
-        margin-left: 0!important;
-        margin-right: 0!important;
-    padding: 0!important;
-
-    }
-}
+    @media screen and (max-width:992px ){
+        .colTittleProjects{
+           display: flex;
+           flex-direction:column!important;
+           padding: 1em!important;
+        }
+        .tittleProjects{
+            font-size: 2.8em;
+            padding-top: 0%;
+            padding-bottom: 1%;
+          }
+          .slider{
+            width: 80%!important;
+            margin: 0;
+        }
+        .card{
+            border-color: #ffffff!important;
+            border-width: 0.01em;
+            background-color: transparent!important;
+            color: #f6fcfa;
+            border-radius: 4px;
+            /* height: 26em; */
+            width: 10em!important;
+            padding: 0;
+            margin: 5px;
+            text-align: center;
+        }
+        }
