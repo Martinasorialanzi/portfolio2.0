@@ -101,6 +101,23 @@
     width: 32em!important;
 }
 
+@media screen and (max-width:768px ){
+    .colTittleProjects{
+       display: flex;
+       flex-direction:column!important;
+       padding: 1em!important;
+    }
+    .tittleProjects{
+        font-size: 2.8em;
+        padding-top: 0%;
+        padding-bottom: 1%;
+      }
+      .slider{
+        width: 86.5%!important;
+        margin: 0;
+    }
+
+    }
 
 @media screen and (max-width:992px ){
     .colTittleProjects{
@@ -117,10 +134,11 @@
         width: 40em!important;
     }
 
+
     }
  
 
-    @media screen and (max-width:992px ){
+    @media screen and (max-width:1200px ){
         .colTittleProjects{
            display: flex;
            flex-direction:column!important;
@@ -132,7 +150,7 @@
             padding-bottom: 1%;
           }
           .slider{
-            width: 80%!important;
+            width: 86.5%!important;
             margin: 0;
         }
         .card{

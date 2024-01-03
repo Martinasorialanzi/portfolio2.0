@@ -4,7 +4,7 @@
     align-self: center;
     align-items: center;
     align-content: center;
-    background-color:#555f65!important;
+    background-color:#26292c!important;
     min-width: 100%;
     margin: 0;
     padding: 0.3em;
@@ -12,9 +12,11 @@
 }
 
 
-.txDescargarCv{
+
+
+/* .txDescargarCv{
     color: aliceblue;
     text-decoration: none;
     font-family: "Gill Sans";
-    font-size: 1.2rem;
-}
+    font-size: 1.0rem;
+} */

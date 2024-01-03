@@ -20,22 +20,32 @@ const Projects = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    initialSlide: 0,
+    initialSlide: 1,
     centerMode: true,
     centerPadding: "20px",
     responsive: [
    
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 2,
           infinite: true,
           dots: true
         }
       },
       {
-        breakpoint: 700,
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 1,
+          centerMode:true,
+          centerPadding: "-15px",
+        }
+      },
+      {
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -55,10 +65,10 @@ const Projects = () => {
     <>
       <Container className="containerProjects">
         <Row className="p-0 rowProjects">
-          <Col className="colTittleProjects " xl={6} md={12}>
+          <Col className="colTittleProjects " xl={6} md={6}>
             <p className="tittleProjects">Projects</p>
           </Col>
-          <Col className="colProjects justify-content-center" xl={6} md={12}>
+          <Col className="colProjects justify-content-center" xl={6} md={6}>
             <Slider {...settings} className=" slider mx-4 p-1 ">
               {projectData.projects.map((project) => (
                 <Card className="card" key={project._id}>
