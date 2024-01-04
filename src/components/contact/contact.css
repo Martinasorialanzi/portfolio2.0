@@ -35,8 +35,11 @@ animation-iteration-count: 0.25;
   
   .formContacto {
     width:60%;
-    color:#f5f6f6;
+    color:#f5f6f6!important;
     font-size: 1.2em;
+  }
+  .formControl {
+    color: white!important; /* Puedes ajustar el color según tus preferencias */
   }
   
   .divTextContacto{
