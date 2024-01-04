@@ -12,7 +12,7 @@
     left: 0;
     width: 100%;
     height: 2px; 
-    background-color:#418b79;
+    background-color:#c6c907;
 }
 .containerProjects:hover::after{
   animation: slide 5s linear  ; 
@@ -31,8 +31,8 @@
   
     transform: rotate(0deg); 
     padding-top: 3%;
-    font-size: 3em;
-    color: #2fe7b9;
+    font-size: 2.6em;
+    color: #c6c907;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,13 +72,14 @@
 }
 
 .badgeTech{
-    background-color: #418b79!important;
+    background-color: #c4c70eb8!important;
     /* background-color: transparent!important; */
     font-size: 0.55em;
     margin-top: 1em;
     margin-right: 0.2em;
     margin-left: 0.2em;
-    color: #f5f6f6;
+      font-weight: 500;
+      color: #f5f6f6;
 }
 .divBadge{
     margin-top: 1em;
@@ -95,7 +96,7 @@
 }
 .cardLink{
     font-size: 0.7em;
-    color:#2fe7b9;
+    color:#c6c907;
 }
 .slider{
     width: 32em!important;
@@ -108,7 +109,7 @@
        padding: 1em!important;
     }
     .tittleProjects{
-        font-size: 2.8em;
+        font-size: 2.6em;
         padding-top: 0%;
         padding-bottom: 1%;
       }
@@ -126,7 +127,7 @@
        padding: 1em!important;
     }
     .tittleProjects{
-        font-size: 2.8em;
+        font-size: 2.6em;
         padding-top: 0%;
         padding-bottom: 1%;
       }
@@ -145,7 +146,7 @@
            padding: 1em!important;
         }
         .tittleProjects{
-            font-size: 2.8em;
+            font-size: 2.4em;
             padding-top: 0%;
             padding-bottom: 1%;
           }

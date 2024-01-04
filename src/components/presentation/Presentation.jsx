@@ -18,7 +18,7 @@ const Presentation = () => {
         >
           <Col xl={6} md={6} sm={12} xs={12} className="colPresentacion">
             <Row>
-              <p className="miNombre my-4">Martina Soria Lanzi</p>
+              <p className="miNombre my-4">MARTINA SORIA LANZI</p>
               <p className="miCarrera m-0">FullStack Developer</p>
               <p className="miCarrera mt-0">Industrial Engeenier</p>
               <Col className="mb-4 mt-4">

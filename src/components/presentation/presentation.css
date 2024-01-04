@@ -2,13 +2,22 @@ body {
   background-color: #26292c !important;
   min-width: 100%;
   min-height: 100%;
+  background: linear-gradient(rgba(200, 227, 26, 0.1) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(200, 227, 26, 0.1) 1px, transparent 1px);
+  background-size: 100px 100px;
+  background-position: -1px -1px;
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 .imagenCv {
   border-radius: 50%;
-  border-color: #2fe7b9!important;
   border-width: 10em;
-  height: 21rem;
-  width: 19rem;
+  height: 22rem;
+  width: 20rem;
 }
 .containerPresentacion {
   margin-top: 10%;
@@ -24,7 +33,7 @@ body {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #418b79;
+  background-color: #c6c907;
 }
 
 
@@ -56,13 +65,12 @@ body {
   width: 18rem;
 }
 .miNombre {
-  font-family: "Gill Sans";
-  font-size: 3em;
-  color: #2fe7b9;
+  font-size: 2.4em;
+  color: #c6c907;
 }
 .miCarrera {
   font-size: 1.8rem;
-  color: #f5f6f6;
+  color: #f5f6f6f6!important;
 }
 
 @media screen and (max-width:767px) {
@@ -78,13 +86,11 @@ body {
     order: -1;
   }
   .womanDevPic {
-  height: 19em;
-  width: 18em;
+  height: 15em;
+  width: 14em;
 }
 .miNombre {
-  font-family: "Gill Sans";
   font-size: 2.2em;
-  color: #2fe7b9;
 }
 .miCarrera {
   font-size: 1.5rem;

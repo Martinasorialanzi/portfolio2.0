@@ -13,7 +13,7 @@
     left: 0;
     width: 100%;
     height: 2px; 
-    background-color:#418b79;
+    background-color:#c6c907;
   }
   .container1:hover::after{
     animation: slide 5s linear  ; 
@@ -31,8 +31,8 @@
   
     transform: rotate(0deg); 
     padding-top: 3%;
-    font-size: 3em;
-    color: #2fe7b9;
+    font-size: 2.6em;
+    color: #c6c907;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +59,7 @@
        padding: 1em!important;
     }
     .textTecnologias{
-      font-size: 2.8em;
+      font-size: 2.4em;
       padding-top: 1%;
       padding-bottom: 1%;
     }

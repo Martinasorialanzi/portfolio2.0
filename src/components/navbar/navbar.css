@@ -1,5 +1,5 @@
 .navbar {
-    background-color: #26292c;
+    background-color: transparent;
     color: #f5f6f6!important;
   }
   
@@ -18,7 +18,7 @@ color: #f5f6f6!important;
   }
 
 .linksNav:hover{
-  color:#418b79!important
+  color:#c6c907!important
 }
 
 .colorChangeBrand{

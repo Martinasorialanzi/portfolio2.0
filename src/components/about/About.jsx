@@ -11,7 +11,7 @@ const About = () => {
       <Container id="about" className="containerSobreMi">
         <Row className="p-0 rowSobreMi">
           <Col className="colTittleSkills">
-            <p className="tittleSkills">About me</p>
+            <p className="tittleSkills">ABOUT ME</p>
           </Col>
 
           <Col className="colSobreMi justify-content-center ">

@@ -66,7 +66,7 @@ const Projects = () => {
       <Container id="projects"className="containerProjects">
         <Row className="p-0 rowProjects">
           <Col className="colTittleProjects " xl={6} md={6}>
-            <p className="tittleProjects">Projects</p>
+            <p className="tittleProjects">PROJECTS</p>
           </Col>
           <Col className="colProjects justify-content-center" xl={6} md={6}>
             <Slider {...settings} className=" slider mx-4 p-1 ">

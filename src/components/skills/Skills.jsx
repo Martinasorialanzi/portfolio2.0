@@ -21,7 +21,7 @@ const Skills = () => {
       <Container id="skills" className="container1 p-2 ">
         <Row className="p-0 rowSkills">
           <Col className="colTittleSkills">
-            <p className="textTecnologias text-center mb-4 mt-0">Skills</p>
+            <p className="textTecnologias text-center mb-4 mt-0">SKILLS</p>
           </Col>
           <Col className="colSkills">
             <Row className="justify-content-center">
