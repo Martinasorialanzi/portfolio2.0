@@ -3,6 +3,7 @@ import "../presentation/presentation.css";
 import { Container, Col, Row, Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import fotoCv from "../../assets/FotoCV.jpg";
+import { motion } from "framer-motion";
 
 const Presentation = () => {
   return (
@@ -52,12 +53,23 @@ const Presentation = () => {
             </Row>
           </Col>
           <Col xl={4} md={4} sm={12} xs={12} className="colWomanDev ">
+          <motion.div
+      className="box"
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{
+        duration: 0.8,
+        delay: 0.5,
+        ease: [0, 0.71, 0.2, 1.01]
+      }}
+    >
             <Image
               src={fotoCv}
               className="womanDevPic img-fluid "
               roundedCircle
               alt="imagenCv"
             ></Image>
+             </motion.div>
           </Col>
         </Row>
       </Container>

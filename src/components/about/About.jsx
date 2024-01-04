@@ -8,7 +8,7 @@ import pdf from "../../assets/cv/CvMartinaSoriaLanzi.pdf";
 const About = () => {
   return (
     <>
-      <Container id="sobreMi" className="containerSobreMi">
+      <Container id="about" className="containerSobreMi">
         <Row className="p-0 rowSobreMi">
           <Col className="colTittleSkills">
             <p className="tittleSkills">About me</p>

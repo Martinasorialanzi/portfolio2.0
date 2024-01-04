@@ -40,7 +40,7 @@ const Contact = () => {
   };
   return (
     <>
-    <Container id="contacto" className="containerContact">
+    <Container id="contact" className="containerContact">
       <Row className="p-0 rowSobreMi">
           <Col className="colTittleSkills">
         <div className="divTextContacto">
