@@ -3,7 +3,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import "../about/about.css";
 // import fotCv from "../../assets/img/fotCv.jpg"
 import { Link } from "react-router-dom";
-import pdf from "../../assets/cv/CvMartinaSoriaLanzi.pdf";
+import pdf from "../../assets/cv/ResumeMartinaSoriaLanzi.pdf";
 
 const About = () => {
   return (
