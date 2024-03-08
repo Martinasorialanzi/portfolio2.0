@@ -14,6 +14,10 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { SiMongodb, SiMicrosoftsqlserver, SiPostman } from "react-icons/si";
 import { LiaGitAlt } from "react-icons/lia";
 import { motion } from "framer-motion";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiTailwindcss } from "react-icons/si";
+
+
 
 const Skills = () => {
   return (
@@ -75,6 +79,20 @@ const Skills = () => {
                     onHoverStart={(e) => {}}
                     onHoverEnd={(e) => {}}
                   >
+                    <SiTailwindcss style={{ color: "white" }} size={70} />
+                    <h5 className="nombreTecnologia">TAILWIND</h5>
+                    </motion.a>
+                  </Stack>
+                </div>
+              </Col>
+              <Col xs={6} xl={3} md={3}>
+                <div>
+                  <Stack className="justify-content-center text-center stackIcon">
+                    <motion.a
+                    whileHover={{ scale: 1.1 }}
+                    onHoverStart={(e) => {}}
+                    onHoverEnd={(e) => {}}
+                  >
                     <IoLogoJavascript style={{ color: "white" }} size={70} />
                     <h5 className="nombreTecnologia">JAVASCRIPT</h5>
                     </motion.a>
@@ -91,6 +109,20 @@ const Skills = () => {
                   >
                     <FaReact style={{ color: "white" }} size={70} />
                     <h5 className="nombreTecnologia">REACT</h5>
+                    </motion.a>
+                  </Stack>
+                </div>
+              </Col>
+              <Col xs={6} xl={3} md={3}>
+                <div>
+                  <Stack className="justify-content-center text-center stackIcon">
+                    <motion.a
+                    whileHover={{ scale: 1.1 }}
+                    onHoverStart={(e) => {}}
+                    onHoverEnd={(e) => {}}
+                  >
+                    <TbBrandNextjs style={{ color: "white" }} size={70} />
+                    <h5 className="nombreTecnologia">NEXT JS</h5>
                     </motion.a>
                   </Stack>
                 </div>
@@ -181,6 +213,8 @@ const Skills = () => {
                   </Stack>
                 </div>
               </Col>
+
+
             </Row>
           </Col>
         </Row>
