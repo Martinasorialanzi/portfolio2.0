@@ -1,51 +1,97 @@
 {
-    "projects":[
-{
-    "_id":"5",
-    "title": "FarmaTurno",
-    "description":"Pharmacy management system",
-    "technologies":["REACT","CSS","BOOTSTRAP","NODE JS","EXPRESS JS","MONGODB","REDUX TOOLKIT"],
-    "weblink":"https://c11-02-m-mern-farmaturno.vercel.app/",
-    "github":"https://github.com/No-Country/c11-02-m-mern-farmaturno",
-    "image":"https://i.ibb.co/brtSzLg/farmaturno.png"
-},
-{
-    "_id":"4",
-    "title": "Portfolio 1.0",
-    "description":"Personal Portfolio",
-    "technologies":["REACT","CSS","BOOTSTRAP","NODE JS","EXPRESS JS","MONGODB","REDUX TOOLKIT"],
-    "weblink":"https://martinasorialanzi.vercel.app/",
-    "github":"https://github.com/Martinasorialanzi/portfolio",
-    "image":"https://i.ibb.co/yXxL6yQ/portfolio1.png"
-},
-{
-    "_id":"3",
-    "title": "Gym Website",
-    "description":"Gym management system",
-    "technologies":["REACT","CSS","BOOTSTRAP","NODE JS","EXPRESS JS","MONGODB","REDUX TOOLKIT"],
-    "weblink":"https://gimnasio.vercel.app/",
-    "github":"https://github.com/Martinasorialanzi/gimnasio",
-    "image":"https://i.ibb.co/WH1L7Dk/gym.png"
-
-},
-{
-    "_id":"2",
-    "title": "Movies 5i",
-    "description":" Movies web app where users can browse and watch movies online.",
-    "technologies":["JAVASCRIPT","CSS","BOOTSTRAP"],
-    "weblink":"https://movies-5i.netlify.app",
-    "github":"https://lucaslon22.github.io/Movies-5i/",
-    "image":"https://i.ibb.co/VVj6V77/movies5i.png"
-},
-{
-    "_id":"1",
-    "title": "Rolling Bank",
-    "description":"Financial education blog",
-    "technologies":["HTML","CSS","BOOTSTRAP"],
-    "weblink":"https://rollingbank-tuc.netlify.app/",
-    "github":"https://github.com/Martinasorialanzi/rollingbank",
-    "image":"https://i.ibb.co/YBjGdSP/rollingbank.png"
+  "projects": [
+    {
+      "_id": "7",
+      "title": "Medical system",
+      "description": "Backend for connecting patients with doctors and managing health records.",
+      "technologies": [
+        "NEST JS",
+        "TypeORM",
+        "POSTGRESQL",
+        "TypeScript" 
+      ],
+      "weblink": "",
+      "github": "https://github.com/Martinasorialanzi/sistemaMedico-nestjs",
+      "image": "data:image/png;base64,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"
+    },
+    {
+      "_id": "6",
+      "title": "Nekode",
+      "description": "Platform for learning JavaScript with OpenAI's AI.",
+      "technologies": [
+        "REACT",
+        "CSS",
+        "REDUX TOOLKIT"
+      ],
+      "weblink": "https://nekode.vercel.app/login",
+      "github": "",
+      "image": "https://i.ibb.co/31Xbqmx/Captura-de-pantalla-2024-08-08-230739.png"
+    },
+    {
+      "_id": "5",
+      "title": "FarmaTurno",
+      "description": "Pharmacy management system",
+      "technologies": [
+        "REACT",
+        "CSS",
+        "BOOTSTRAP",
+        "REDUX TOOLKIT"
+      ],
+      "weblink": "https://c11-02-m-mern-farmaturno.vercel.app/",
+      "github": "https://github.com/No-Country/c11-02-m-mern-farmaturno",
+      "image": "https://i.ibb.co/0sky6SR/Captura-de-pantalla-2024-08-08-230952.png"
+    },
+    {
+      "_id": "4",
+      "title": "Portfolio 1.0",
+      "description": "Personal Portfolio",
+      "technologies": [
+        "REACT",
+        "CSS",
+        "BOOTSTRAP",
+        "NODE JS",
+        "EXPRESS JS",
+        "MONGODB",
+        "REDUX TOOLKIT"
+      ],
+      "weblink": "https://martinasorialanzi.vercel.app/",
+      "github": "https://github.com/Martinasorialanzi/portfolio",
+      "image": "https://i.ibb.co/yXxL6yQ/portfolio1.png"
+    },
+    {
+      "_id": "3",
+      "title": "Gym Website",
+      "description": "Gym management system",
+      "technologies": [
+        "REACT",
+        "CSS",
+        "BOOTSTRAP",
+        "NODE JS",
+        "EXPRESS JS",
+        "MONGODB",
+        "REDUX TOOLKIT"
+      ],
+      "weblink": "https://gimnasio.vercel.app/",
+      "github": "https://github.com/Martinasorialanzi/gimnasio",
+      "image": "https://i.ibb.co/WH1L7Dk/gym.png"
+    },
+    {
+      "_id": "2",
+      "title": "Movies 5i",
+      "description": " Movies web app where users can browse and watch movies online.",
+      "technologies": ["JAVASCRIPT", "CSS", "BOOTSTRAP"],
+      "weblink": "https://movies-5i.netlify.app",
+      "github": "https://lucaslon22.github.io/Movies-5i/",
+      "image": "https://i.ibb.co/VVj6V77/movies5i.png"
+    },
+    {
+      "_id": "1",
+      "title": "Rolling Bank",
+      "description": "Financial education blog",
+      "technologies": ["HTML", "CSS", "BOOTSTRAP"],
+      "weblink": "https://rollingbank-tuc.netlify.app/",
+      "github": "https://github.com/Martinasorialanzi/rollingbank",
+      "image": "https://i.ibb.co/YBjGdSP/rollingbank.png"
+    }
+  ]
 }
-]
-}
-

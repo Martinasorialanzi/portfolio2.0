@@ -37,6 +37,7 @@ const Navegador = () => {
          
             <Nav.Link className='linksNav' href="#about">About</Nav.Link>
             <Nav.Link className='linksNav' href="#skills">Skills</Nav.Link>
+            <Nav.Link className='linksNav' href="#experience">Experience</Nav.Link>
             <Nav.Link className='linksNav' href="#projects">Projects</Nav.Link>
             <Nav.Link className='linksNav' href="#contact">Contact me</Nav.Link>
        

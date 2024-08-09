@@ -1,0 +1,119 @@
+.containerSobreMi{
+    position: relative;
+    padding-bottom: 20px; /* Ajusta el relleno según sea necesario */
+    margin-bottom: 20px; /* Ajusta el margen según sea necesario */
+    overflow: hidden; /* Oculta el contenido que se desborda */
+    padding-top:0.5em;    
+}
+.containerSobreMi::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color:#c6c907;
+}
+.containerSobreMi:hover::after{
+  animation: slide 5s linear  ; 
+  animation-iteration-count: 0.25;
+  
+}
+
+
+.colTittleSkills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+  }
+.tittleSkills{
+  
+    transform: rotate(0deg); 
+    padding-top: 3%;
+    font-size: 2.6em;
+    color: #c6c907;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.colExperience{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left; 
+    margin-right:5%;
+    padding: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: #ffffff;
+    font-size: 0.9em;
+}
+.nameJobRow{
+    font-weight: 700;
+    text-align: left; 
+    color: #c6c907;
+    font-size: 1rem;
+    margin-bottom: 0.2rem;
+}
+.company {
+    font-weight: 400;
+    color: #ffffff;
+
+  }
+  
+  .dates {
+    font-weight: 400;
+    font-size: 0.9em;
+    color: #ffffff;
+  }
+  .descriptionJobRow {
+    margin-bottom: 0.2rem;
+    margin-left: 1rem;
+  }
+  .projectTitleRow{
+    font-size: 1em;
+    margin-left: 1rem;
+    text-decoration: underline;
+  }
+  .projectsRow{
+    margin-bottom: 0.15rem;
+    margin-left: 1rem;
+    font-size: 0.9em;
+  }
+  
+
+  .technologiesJobRow{
+    font-style: italic;
+    margin-left: 1rem;
+    margin-bottom: 0.1rem;
+    font-size: 0.9em;
+  }
+
+
+@media screen and (max-width:768px ){
+    .rowSobreMi{
+       display: flex;
+       flex-direction:column;
+       padding: 1em!important;
+    }
+    .tittleSkills{
+        font-size: 2.5em;
+        padding-top: 0%;
+        padding-bottom: 1%;
+      }
+      .colExperience{
+        display: flex;
+        justify-content: center;
+        align-items:flex-start;
+        text-align: left; 
+        margin-right:5%;
+        padding: 0;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        color: #f5f6f6;
+        font-size: 1.1em!important;
+    }
+}

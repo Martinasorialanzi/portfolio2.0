@@ -24,15 +24,14 @@ const Projects = () => {
     centerMode: true,
     centerPadding: "20px",
     responsive: [
-   
       {
         breakpoint: 1200,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
           infinite: true,
-          dots: true
-        }
+          dots: true,
+        },
       },
       {
         breakpoint: 992,
@@ -40,30 +39,30 @@ const Projects = () => {
           slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 1,
-          centerMode:true,
+          centerMode: true,
           centerPadding: "-15px",
-        }
+        },
       },
       {
         breakpoint: 768,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 1
-        }
+          initialSlide: 1,
+        },
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
-        }
-      }
-    ]
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   return (
     <>
-      <Container id="projects"className="containerProjects">
+      <Container id="projects" className="containerProjects">
         <Row className="p-0 rowProjects">
           <Col className="colTittleProjects " xl={6} md={6}>
             <p className="tittleProjects">PROJECTS</p>
@@ -78,22 +77,25 @@ const Projects = () => {
                     className="image"
                   />
                   <div className=" divBadge d-flex align-items-center justify-content-center flex-wrap">
-                     {project.technologies.map((technologie) => (
+                    {project.technologies.map((technologie) => (
                       <Badge className="badgeTech" key={project._id}>
                         {technologie}
                       </Badge>
                     ))}
-</div>
+                  </div>
                   <Card.Body className="d-flex align-items-center justify-content-center flex-wrap">
                     <Card.Title className="cardTittle">
                       {project.title}
                     </Card.Title>
 
-                 <div className="divDescription d-flex align-items-center justify-content-center flex-wrap">
-                    <Card.Text className="description">{project.description}</Card.Text>
+                    <div className="divDescription d-flex align-items-center justify-content-center flex-wrap">
+                      <Card.Text className="description">
+                        {project.description}
+                      </Card.Text>
                     </div>
                   </Card.Body>
                   <Card.Footer>
+                  {project.weblink !== "" ? (
                     <Card.Link
                       className="cardLink"
                       href={project.weblink}
@@ -101,13 +103,16 @@ const Projects = () => {
                     >
                       Web Link
                     </Card.Link>
-                    <Card.Link
-                      className="cardLink"
-                      href={project.github}
-                      target="_blank"
-                    >
-                      GitHub
-                    </Card.Link>
+                     ) : null}
+                    {project.github !== "" ? (
+                      <Card.Link
+                        className="cardLink"
+                        href={project.github}
+                        target="_blank"
+                      >
+                        GitHub
+                      </Card.Link>
+                    ) : null}
                   </Card.Footer>
                 </Card>
               ))}
